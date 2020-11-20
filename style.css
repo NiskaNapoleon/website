@@ -1,13 +1,102 @@
+/* Website Styles */
+
+* {
+  font-size: 100%;
+  font-style: normal;
+  margin: 2;
+  line-height: 2;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
 body {
-  background-color: MistyRose;
-color: DarkCyan;
-font-family: Georgia;
+  background-image: url(images/full-bloom.png);
+  color: DarkCyan;
+  font-family: Georgia;
+  font-size: 16px;
+  margin:60px;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+header {
+text-align: center;
+padding: 30px;
+/* border-bottom; 5px solid grey; */
 }
 
 h1 {
   color: Black;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  /* border-bottom: 1px solid black; */
+  /* font-style: italic; */
+  /* text-align: left; */
   }
 
 h2 {
-  color: DimGray;
+  color: black;
+  font-size: 40px;
+  font-weight: 900;
   }
+
+p {
+    line-height: 2;
+    font-style: normal;
+    margin: 55px 0;
+  }
+
+h3 {
+  color: black;
+  font-size:40px;
+  font-weight: 900;
+}
+
+/* img {
+  width: 400px;
+  height: 300px; */
+/* } */
+
+h4 {
+  color: black;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+ul,ol {
+  margin: 20px 0;
+}
+
+section {
+  border: 2px solid gainsboro;
+  background-color: white;
+  margin: 40px;
+  padding: 40px;
+  width: 60%
+  text-align: center;
+  /* border: 1px dashed red; */
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,h2,h3,h4 {
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 30px;
+  /* font-style: italic; */
+}
+ footer {
+   text-align: center;
+   padding: 30px;
+ }
